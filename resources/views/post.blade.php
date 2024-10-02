@@ -16,7 +16,7 @@
         <p class ="my-4 font-light">
             {{ $post ['body'] }}
         </p>
-        <a href="/authors/{{ $post->author->id }}" class="font-medium text-blue-500 hover:underline">&laquo; Back to posts</a>
+        <a href="/posts/" class="font-medium text-blue-500 hover:underline">&laquo; Back to posts</a>
     </article>
    
 </x-layout>
